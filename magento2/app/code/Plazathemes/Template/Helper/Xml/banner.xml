@@ -1,0 +1,156 @@
+<?xml version="1.0" standalone="yes"?>  
+<bannerslider>
+<records>
+	<record> 
+		<name>Face Cleanser</name>
+		<title1>Mega - Mushroom Skin Relief</title1>
+		<title2></title2>
+		<click_url>#</click_url> 
+		<image><![CDATA[Plazathemes/bannerslider/images/b/a/banner1-home1.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/a/banner1-home1.jpg]]></image_alt>
+		<description>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. </description>
+		<order>1</order>
+		<store_id>1</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<name>Comes From Healthy.</name>
+		<title1>Rock And Glamour</title1>
+		<title2></title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/a/banner2-home1.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/a/banner2-home1.jpg]]></image_alt>
+		<description>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. </description>
+		<order>1</order>
+		<store_id>1</store_id> 
+		<status>1</status> 
+	</record>
+	
+	<record> 
+		<name>Natural Cosmetics.</name>
+		<title1>Up to 70% off</title1>
+		<title2></title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/a/banner1-home2.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/a/banner1-home2.jpg]]></image_alt>
+		<description></description>
+		<order>1</order>
+		<store_id>2</store_id> 
+		<status>1</status> 
+	</record>
+	
+	<record> 
+		<name>Natural Cosmetics.</name>
+		<title1>Up to 70% off</title1>
+		<title1>Up to 70% off</title1>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/a/banner2-home2.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/a/banner2-home2.jpg]]></image_alt>
+		<description>This is Photoshop version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin...</description>
+		<order>1</order>
+		<store_id>2</store_id> 
+		<status>1</status> 
+	</record>	
+	<record> 
+		<name>Comes From Healthy.</name>
+		<title1>Grass Milk Yogurt</title1>
+		<title2></title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/a/banner1-home3.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/a/banner1-home3.jpg]]></image_alt>
+		<description>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. </description>
+		<order>1</order>
+		<store_id>3</store_id> 
+		<status>1</status> 
+	</record>
+	
+	<record> 
+		<name>Pasture-raised goodness</name>
+		<title1>Half &amp; Half</title1>
+		<title2></title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/a/banner2-home3.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/a/banner2-home3.jpg]]></image_alt>
+		<description>People will go to great lengths to find just the right coffee, so we decided to make it a little easier for folks to find just the right Half 	&amp; Half.</description>
+		<order>1</order>
+		<store_id>3</store_id> 
+		<status>1</status> 
+	</record>	
+	<record> 
+		<name>Pasture-raised goodness</name>
+		<title1>Half &amp;Half</title1>
+		<title2></title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/a/banner1-home4.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/a/banner1-home4.jpg]]></image_alt>
+		<description>People will go to great lengths to find just the right coffee, so we decided to make it a little easier for folks to find just the right Half 	&amp; Half.</description>
+		<order>1</order>
+		<store_id>4</store_id> 
+		<status>1</status> 
+	</record>
+	
+	<record> 
+		<name>Comes From Healthy.</name>
+		<title1>Grass Milk Yogurt</title1>
+		<title2></title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/a/banner2-home4.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/a/banner2-home4.jpg]]></image_alt>
+		<description>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequa</description>
+		<order>1</order>
+		<store_id>4</store_id> 
+		<status>1</status> 
+	</record>	
+	<record> 
+		<name>Special Fruits</name>
+		<title1>Organica Store</title1>
+		<title2></title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/a/banner1-home5.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/a/banner1-home5.jpg]]></image_alt>
+		<description>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. </description>
+		<order>1</order>
+		<store_id>5</store_id> 
+		<status>1</status> 
+	</record>
+	
+	<record> 
+		<name>Organic Food on Store</name>
+		<title1>Sale up to 50% off.</title1>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/a/banner2-home5.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/a/banner2-home5.jpg]]></image_alt>
+		<description></description>
+		<order>1</order>
+		<store_id>5</store_id> 
+		<status>1</status> 
+	</record>
+
+	<record> 
+		<name>Organic Food on Store</name>
+		<title1>Sale up to 50% off.</title1>
+		<click_url></click_url>
+
+		<image><![CDATA[Plazathemes/bannerslider/images/b/a/banner1-home6.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/a/banner1-home6.jpg]]></image_alt>
+		<description></description>
+		<order>1</order>
+		<store_id>6</store_id> 
+		<status>1</status> 
+	</record>	
+		
+	<record> 
+		<name>Super Sale Vegetable</name>
+		<title1></title1>
+		<title2></title2>
+		<click_url></click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/a/banner2-home6.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/a/banner2-home6.jpg]]></image_alt>
+		<description></description>
+		<order>1</order>
+		<store_id>6</store_id> 
+		<status>1</status> 
+	</record>
+	
+</records>
+</bannerslider>

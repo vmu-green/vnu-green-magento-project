@@ -1,0 +1,44 @@
+
+<div class="main-container col2-left-layout">
+	<div class="container-inner">
+		<?php echo $block->getLayout()->createBlock('Plazathemes\Bannerslider\Block\Bannerslider')->setTemplate('Plazathemes_Bannerslider::bannerslider.phtml')->toHtml();?>
+	</div>
+	
+
+	<?php echo $block->getLayout()->createBlock('Plazathemes\Featureproductslider\Block\Featureproductslider')->setTemplate('Plazathemes_Featureproductslider::featureproductslider.phtml')->toHtml();?>
+
+	<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner_home_home2')->toHtml(); ?>
+	
+	<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner_bottom_home2')->toHtml(); ?>
+
+	<div class="home-group-home2">
+		<div class="container-inner">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<?php echo $block->getLayout()->createBlock('Plazathemes\Newproductslider\Block\Newproductslider')->setTemplate('Plazathemes_Newproductslider::newproductslider.phtml')->toHtml();?>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<?php echo $block->getLayout()->createBlock('Plazathemes\Bestsellerproduct\Block\Bestsellerproduct')->setTemplate('bestsellerproduct.phtml')->toHtml();?>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<?php echo $block->getLayout()->createBlock('Plazathemes\Randomproductslider\Block\Products')->setTemplate('productslider.phtml')->toHtml();?>
+				</div>
+				
+			</div>
+		</div>	
+	</div>
+	
+	<?php echo $block->getLayout()->createBlock('Plazathemes\Brandslider\Block\Brandslider')->setTemplate('Plazathemes_Brandslider::brandslider.phtml')->toHtml();?>
+	
+	<?php echo $block->getLayout()->createBlock('Plazathemes\Blog\Block\Sidebar\Recent')->setTemplate('Plazathemes_Blog::sidebar/slider.phtml')->toHtml();?>
+	
+	<div class="banner home-group-home2-bottom">
+		<div class="container-inner">
+			<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('links_bottom_home2')->toHtml(); ?>
+			<?php echo $block->getLayout()->createBlock('Magento\Newsletter\Block\Subscribe')->setTemplate(	'subscribe.phtml')->toHtml();?>	
+		</div>	
+	</div>
+	
+</div>
+
+

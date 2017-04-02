@@ -1,0 +1,15 @@
+
+<div class="main-container col2-left-layout">
+	
+	<?php echo $block->getLayout()->createBlock('Plazathemes\Blog\Block\Sidebar\Recent')->setTemplate('Plazathemes_Blog::sidebar/slider.phtml')->toHtml();?>
+	
+	<?php echo $block->getLayout()->createBlock('Plazathemes\Brandslider\Block\Brandslider')->setTemplate('Plazathemes_Brandslider::brandslider.phtml')->toHtml();?>
+	<div class="banner home-group-home6-bottom">
+		<div class="container-inner">
+			<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('links_bottom_home6')->toHtml(); ?>
+			<?php echo $block->getLayout()->createBlock('Magento\Newsletter\Block\Subscribe')->setTemplate(	'subscribe.phtml')->toHtml();?>	
+		</div>	
+	</div>
+</div>
+
+

@@ -1,0 +1,24 @@
+
+<div class="main-container col2-left-layout">
+	<div class="container-inner">
+		<?php echo $block->getLayout()->createBlock('Plazathemes\Producttab\Block\Producttab')->setTemplate('Plazathemes_Producttab::producttab.phtml')->toHtml();?>
+	</div>
+	<div class="banner home-group-home1">
+			<div class="row">
+				<div class="col-md-7 col-sm-12 col-xs-12 left">
+					<?php echo $block->getLayout()->createBlock('Plazathemes\Testimonial\Block\Testimonial')->setTemplate('Plazathemes_Testimonial::testimonial.phtml')->toHtml();?>
+				</div>
+				<div class="col-md-5 col-sm-12 col-xs-12 right">
+					<?php echo $block->getLayout()->createBlock('Magento\Newsletter\Block\Subscribe')->setTemplate('subscribe.phtml')->toHtml();?>	
+				</div>
+			</div>
+	</div>
+
+	<?php echo $block->getLayout()->createBlock('Plazathemes\Blog\Block\Sidebar\Recent')->setTemplate('Plazathemes_Blog::sidebar/slider.phtml')->toHtml();?>
+
+	
+	<?php echo $block->getLayout()->createBlock('Plazathemes\Brandslider\Block\Brandslider')->setTemplate('Plazathemes_Brandslider::brandslider.phtml')->toHtml();?>
+	
+</div>
+
+

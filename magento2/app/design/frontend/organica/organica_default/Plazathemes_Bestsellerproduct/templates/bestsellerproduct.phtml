@@ -1,0 +1,112 @@
+<?php 
+
+	$enable = $block->getConfig('enabled');
+	if($enable < 1) return ; 
+	$title = $block->getConfig('title');
+	$items = $block->getConfig('items');
+	$speed = $block->getConfig('speed');
+	$qty = $block->getConfig('qty');
+	$show_navigation = $block->getConfig('navigation');
+	$show_pagination = $block->getConfig('pagination');
+	$auto = $block->getConfig('auto');
+	$rows = $block->getConfig('row');
+	
+?>
+<div class="bestsellerproduct_container_slider">
+	
+	<h2 class="ma-title"><span><?php echo $title;?></span></h2>
+		<div id="bestseller_product_slider" class="owl-carousel">
+			<?php 
+			$saleItems =  $block -> getBestsellerProduct(); 
+			$imageBlock =  $block->getLayout()->createBlock('Magento\Catalog\Block\Product\Image');
+			$image = 'new_products_content_widget_grid';
+			$type = 'widget-new-grid';
+			$templateType = \Magento\Catalog\Block\Product\ReviewRendererInterface::DEFAULT_VIEW;
+			$i=0;
+			foreach($saleItems as $_item) { 
+					$productImage = $block->getImage($_item, $image);
+				?>
+				<?php if($i++%$rows==0) { ?>
+				<div class="product_row">		
+					<div class="products-grid">
+					 <?php } ?>
+						<div class="item-inner">
+							<div class="product-item-info">
+							
+								<?php
+									$newFromDate = $_item->getNewsFromDate();
+									$newToDate = $_item->getNewsToDate();                
+									$now = date("Y-m-d H:m:s");
+									// Get the Special Price
+									$specialprice = $_item->getSpecialPrice(); 
+									// Get the Special Price FROM date
+									$specialPriceFromDate = $_item->getSpecialFromDate();
+									// Get the Special Price TO date
+									$specialPriceToDate = $_item->getSpecialToDate();
+									// Get Current date
+									if ($specialprice&&(($specialPriceFromDate <= $now && $specialPriceToDate >= $now) || (($specialPriceFromDate <= $now && $specialPriceFromDate != NULL) && $specialPriceToDate  == ''))){
+									$_savePercent = 100 - round(($_item->getSpecialPrice() / $_item->getPrice())*100);
+									echo "<span class='hot-sale'>sale</span>";
+									}else{
+									if((($newFromDate <= $now && $newToDate >= $now) || (($newFromDate <= $now && $newFromDate != NULL) && $newToDate == NULL))) {
+									?>
+									<div class="label-pro-new"><span><?php echo __('new') ?></span></div>
+									<?php
+									}
+									}
+								?>
+							
+								<a href="<?php echo $block->getProductUrl($_item) ?>" class="product-item-photo">
+									<?php echo $productImage->toHtml() ?>
+								</a>
+
+								<div class="product-item-details">
+										<strong class="product-item-name">
+											<a title="<?php echo $block->escapeHtml($_item->getName()) ?>"
+											   href="<?php echo $block->getProductUrl($_item) ?>"
+											   class="product-item-link">
+												<?php echo $block->escapeHtml($_item->getName()) ?>
+											</a>
+										</strong>
+	
+									<?php echo $block->getReviewsSummaryHtml($_item, $templateType,true); ?>		
+									<?php
+										echo $block->getProductPrice($_item);
+									 ?>
+
+								</div> 
+							</div>							
+						</div>
+						<?php if($i%$rows==0 || $i == count($saleItems)) { ?>
+					</div>
+				  <?php }?>
+				</div>
+			<?php 
+			}
+			?>
+		</div>
+	
+</div>
+<script type="text/javascript">
+require([
+  "jquery",
+  "owlcarousel/minjs"
+ ], function($,owlCarousel){
+	
+   $("#bestseller_product_slider").owlCarousel({ 
+		autoPlay : <?php if($auto) echo 'true'; else echo 'false'; ?>,
+		slideSpeed : <?php if($speed) echo $speed; else echo '500'; ?>,
+		navigation : <?php if($show_navigation) echo 'true'; else echo 'false'; ?>,
+		stopOnHover : true,
+		pagination : <?php if($show_pagination) echo 'true'; else echo 'false'; ?>,
+		addClassActive : true,
+		scrollPerPage:false,
+		items : 1,
+		itemsDesktop : [1199,1],
+		itemsDesktopSmall : [992,1],
+		itemsTablet: [767,2],
+		itemsMobile : [479,1]
+   });
+   
+});
+</script>   

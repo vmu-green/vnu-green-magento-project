@@ -1,0 +1,990 @@
+<?xml version="1.0"?>
+<organica>
+    <blocks>
+	
+		<block>
+            <title>Contact us</title>
+            <identifier>contact_us</identifier>
+            <content>
+                    <![CDATA[
+						<div class="contact-us"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6305.678625317825!2d-122.39957047637722!3d37.793805380191266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063d63a0215%3A0xcba0af2dfe02048f!2s101+California+Street%2C+San+Francisco%2C+CA+94111%2C+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1419099932976" width="100%" height="350"></iframe></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                    <![CDATA[
+						<div class="footer-static ">
+						<div class="row">
+						<div class="col-sm-3 bos1">
+						<div class="footer-static-title f-title5">
+						<h3>Information</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+						<li><a href="{{store direct_url="customer/account/"}}">Delivery Information</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li class="last"><a href="#">Terms &amp; Conditions</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="col-sm-3 bos2">
+						<div class="footer-static-title f-title3">
+						<h3>My Account</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="#">My Account</a></li>
+						<li><a href="sales/order/history/">Order History</a></li>
+						<li><a href="#">Returns</a></li>
+						<li class="last"><a href="#">Site Map</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="col-sm-3 bos3">
+						<div class="footer-static-title f-title4">
+						<h3>Customer Service</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="#">Site Map</a></li>
+						<li><a href="#">Specials</a></li>
+						<li><a href="{{store direct_url="sales/order/history/"}}">Order History</a></li>
+						<li class="last"><a href="#">My Account</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="col-sm-3 bos4">
+						<div class="footer-static-title f-title1">
+						<h3>Extras</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="{{store direct_url="wishlist/index/index/"}}">Wish List</a></li>
+						<li><a href="{{store direct_url="catalog/product_compare/"}}">compare</a></li>
+						<li><a href="{{store direct_url="contacts/"}}">Contact Us</a></li>
+						<li class="last"><a href="{{store direct_url="customer-service"}}">Custom Service</a></li>
+						</ul>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Footer payment</title>
+            <identifier>footer_payment</identifier>
+            <content>
+                    <![CDATA[
+						<p><img src="{{media url="wysiwyg/payment_1.png"}}" alt="" /></p>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner left</title>
+            <identifier>banner_left</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-left">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/banner-left.png"}}" alt="" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Menu Links</title>
+            <identifier>pt_menu_links</identifier>
+            <content>
+                    <![CDATA[
+						<div class="pt_menu_link pt_menu">
+						<div class="parentMenu">
+						<ul class="mobilemenu">
+						<li><a href="{{store url="blog"}}">Blog</a></li>
+						<li class="last"><a href="{{store url="contact"}}">Contact Us</a></li>
+						</ul>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Hotline</title>
+            <identifier>hotline</identifier>
+            <content>
+                    <![CDATA[
+						<p>Order online or call us : <strong>(1800) 000 8808</strong></p>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static footer home1</title>
+            <identifier>static_footer_home1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-footer">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="box box1">
+						<div class="icon"><i class="fa fa-phone"></i><span>Do you have <span> a question?</span></span></div>
+						<div class="text">+0123 456 789</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="box box2">
+						<div class="icon"><i class="fa fa-envelope-o"></i><span>offer<span> question?</span></span></div>
+						<div class="text">Contact@organica.com</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 ">
+						<div class="box box3">
+						<div class="icon"><i class="fa fa-life-saver"></i><span>SUpport<span> question?</span></span></div>
+						<div class="text">support@organica.com</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner bottom home1</title>
+            <identifier>banner_bottom_home1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-home-bottom">
+						<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12 box1">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img1_home1.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12 box2">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img2_home1.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner home home1</title>
+            <identifier>banner_home_home1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-home-home1">
+						<div class="box-col">
+						<div class="container-inner">
+						<div class="text">
+						<h1>New arrivals</h1>
+						<h2>Organic</h2>
+						<h3>up to 80% off</h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+						<div class="shop now"><a href="{{store url="tops.html"}}">Shop now</a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner right home2</title>
+            <identifier>banner_right_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-home-right">
+						<div class="box1">
+						<div class="box-col"><a href="#"> <img src="{{media url="wysiwyg/img1-home2.jpg"}}" alt="" /> </a></div>
+						</div>
+						<div class="box2">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img2-home2.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner home home2</title>
+            <identifier>banner_home_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-home-home2">
+						<div class="box-col">
+						<div class="container">
+						<div class="text">
+						<h1>New arrivals</h1>
+						<h2>Organic</h2>
+						<h3>up to 80% off</h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+						<div class="shop now"><a href="{{store url="tops.html"}}">Shop now</a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner bottom home2</title>
+            <identifier>banner_bottom_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-home-bottom">
+						<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12 box1">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img1_home1.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12 box2">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img2_home1.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static footer home2</title>
+            <identifier>static_footer_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-footer">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="box box1">
+						<div class="icon"><i class="fa fa-phone"></i><span>Do you have <span> a question?</span></span></div>
+						<div class="text">+0123 456 789</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="box box2">
+						<div class="icon"><i class="fa fa-envelope-o"></i><span>offer<span> question?</span></span></div>
+						<div class="text">Contact@organica.com</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 ">
+						<div class="box box3">
+						<div class="icon"><i class="fa fa-life-saver"></i><span>SUpport<span> question?</span></span></div>
+						<div class="text">support@organica.com</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>links bottom home2</title>
+            <identifier>links_bottom_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="links-bottom">
+						<ul class="link-follow">
+						<li><a class="facebook fa fa-facebook" href="#"> <span>facebook</span> </a></li>
+						<li><a class="youtube fa fa-youtube" href="#"> <span>youtube </span> </a></li>
+						<li><a class="twitter fa fa-twitter" href="#"> <span>twitter</span> </a></li>
+						<li class="first"><a class="mail fa fa-envelope-o " href="#"> <span>mail </span> </a></li>
+						</ul>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>hearder sattic  top home3</title>
+            <identifier>hearder_sattic_top_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="sale-top">
+						<div class="text">
+						<p>MID-SEASON SALE UP TO 70% OFF. USE CODE"SALE70%".</p>
+						<div class="links"><a href="{{store url="persets.html"}}">SHOP NOW</a><i class="fa fa-angle-right"></i></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static top home3</title>
+            <identifier>static_top_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-home3-top">
+						<div class="container-inner">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12 box1">
+						<div class="text"><i class="fa fa-plane"></i>
+						<p>Free shipping on orders over</p>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box2">
+						<div class="text"><i class="fa fa-history"></i>
+						<p>30 -Day returns money back</p>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box3">
+						<div class="text"><i class="fa fa-futbol-o"></i>
+						<p>24/7 Support</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>sale top home3</title>
+            <identifier>sale_top_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="sale-top-home3">
+						<div class="container-inner">
+						<div class="text">
+						<h3>Our History</h3>
+						<h4>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</h4>
+						<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent</p>
+						<div class="links"><a href="{{store url="persets.html"}}">Read more</a><i class="fa fa-long-arrow-right"></i></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static home home3</title>
+            <identifier>static_home_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-home-bottom">
+						<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12 box1">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img1-home3.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12 box2">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img2-home3.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static bottom home3</title>
+            <identifier>static-bottom-home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-home-bottom">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12 box box1">
+						<div class="box-iner">
+						<div class="iner-iner-box">
+						<div class="text">
+						<h3>Organic Store</h3>
+						<div class="iner-text">Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum</div>
+						<a class="shop now" href="{{store url="persets.html"}}">Read more<i class="fa fa-long-arrow-right"></i></a></div>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box box2">
+						<div class="box-iner">
+						<div class="iner-iner-box">
+						<div class="text">
+						<h3>Open Hour</h3>
+						<div class="iner-text"><span>Monday-Friday: 8:00AM-5:00PM CST</span> <strong>Saturday-Sunday: Closed</strong></div>
+						<a class="shop now" href="{{store url="persets.html"}}">Read more<i class="fa fa-long-arrow-right"></i></a></div>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box box3">
+						<div class="box-iner">
+						<div class="iner-iner-box">
+						<div class="text">
+						<h3>Contact Information</h3>
+						<div class="iner-text"><span>No. 96, Jecica City, NJ 07305, New York, USA</span> <strong>Phone: 888.444.6455 - Fax: 608.625.2600</strong>
+						<p>Organic@organica.co</p>
+						</div>
+						<a class="shop now" href="{{store url="persets.html"}}">Read more<i class="fa fa-long-arrow-right"></i></a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static footer home3</title>
+            <identifier>static_footer_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-footer">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="box box1">
+						<div class="icon"><i class="fa fa-phone"></i><span>Do you have <span> a question?</span></span></div>
+						<div class="text">+0123 456 789</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="box box2">
+						<div class="icon"><i class="fa fa-envelope-o"></i><span>offer<span> question?</span></span></div>
+						<div class="text">Contact@organica.com</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 ">
+						<div class="box box3">
+						<div class="icon"><i class="fa fa-life-saver"></i><span>SUpport<span> question?</span></span></div>
+						<div class="text">support@organica.com</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static footer home4</title>
+            <identifier>static_footer_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-footer">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="box box1">
+						<div class="icon"><i class="fa fa-phone"></i><span>Do you have <span> a question?</span></span></div>
+						<div class="text">+0123 456 789</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="box box2">
+						<div class="icon"><i class="fa fa-envelope-o"></i><span>offer<span> question?</span></span></div>
+						<div class="text">Contact@organica.com</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 ">
+						<div class="box box3">
+						<div class="icon"><i class="fa fa-life-saver"></i><span>SUpport<span> question?</span></span></div>
+						<div class="text">support@organica.com</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static home home4</title>
+            <identifier>static_home_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-home-bottom">
+						<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12 box1">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img1-home3.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12 box2">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img2-home3.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static bottom home4</title>
+            <identifier>static-bottom-home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-home-bottom">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12 box box1">
+						<div class="box-iner">
+						<div class="iner-iner-box">
+						<div class="text">
+						<h3>Organic Store</h3>
+						<div class="iner-text">Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum</div>
+						<a class="shop now" href="{{store url="persets.html"}}">Read more<i class="fa fa-long-arrow-right"></i></a></div>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box box2">
+						<div class="box-iner">
+						<div class="iner-iner-box">
+						<div class="text">
+						<h3>Open Hour</h3>
+						<div class="iner-text"><span>Monday-Friday: 8:00AM-5:00PM CST</span> <strong>Saturday-Sunday: Closed</strong></div>
+						<a class="shop now" href="{{store url="persets.html"}}">Read more<i class="fa fa-long-arrow-right"></i></a></div>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box box3">
+						<div class="box-iner">
+						<div class="iner-iner-box">
+						<div class="text">
+						<h3>Contact Information</h3>
+						<div class="iner-text"><span>No. 96, Jecica City, NJ 07305, New York, USA</span> <strong>Phone: 888.444.6455 - Fax: 608.625.2600</strong>
+						<p>Organic@organica.co</p>
+						</div>
+						<a class="shop now" href="{{store url="persets.html"}}">Read more<i class="fa fa-long-arrow-right"></i></a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static top home4</title>
+            <identifier>static_top_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-home4-top">
+						<div class="container-inner">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12 box1">
+						<div class="text"><i class="fa fa-plane"></i>
+						<p>Free shipping on orders over</p>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box2">
+						<div class="text"><i class="fa fa-history"></i>
+						<p>30 -Day returns money back</p>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box3">
+						<div class="text"><i class="fa fa-futbol-o"></i>
+						<p>24/7 Support</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>hearder sattic  top home4</title>
+            <identifier>hearder_sattic_top_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="sale-top">
+						<div class="text">
+						<p>MID-SEASON SALE UP TO 70% OFF. USE CODE"SALE70%".</p>
+						<div class="links"><a href="{{store url="persets.html"}}">SHOP NOW</a><i class="fa fa-angle-right"></i></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static top home5</title>
+            <identifier>static_top_home5</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-home5-top">
+						<div class="container-inner">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12 box1">
+						<div class="text"><i class="fa fa-plane"></i>
+						<p>Free shipping on orders over</p>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box2">
+						<div class="text"><i class="fa fa-history"></i>
+						<p>30 -Day returns money back</p>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box3">
+						<div class="text"><i class="fa fa-futbol-o"></i>
+						<p>24/7 Support</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static banner bottom home5</title>
+            <identifier>static_banner_bottom_home5</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-home-bottom">
+						<div class="iner">
+						<div class="text">
+						<h1>welcome to our Organica store!</h1>
+						<p>uspendisse tristique nulla vitae metus venenatis fringilla. Mauris tincidunt, augue quis varius vehicula, nibh magna gravida metus</p>
+						</div>
+						<div class="img box-col"><a href="#"><img src="{{media url="wysiwyg/img3-home5.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner satic top home5</title>
+            <identifier>banner_satic_top_home5</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-home-top">
+						<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12 box box1">
+						<div class="box-iner">
+						<div class="img"><img src="{{media url="wysiwyg/img1-home5.jpg"}}" alt="" /></div>
+						<div class="text">
+						<h2>Organic Store</h2>
+						<h3>Exclusive <span>Brands.</span></h3>
+						<p>Vestibulum suscipit quam risus, ac sollicitudin dui iaculis ac. Suspendisse ut odio non lacus accumsan scelerisque.</p>
+						<a class="shop now" href="{{store url="upholstered.html"}}">Read more</a></div>
+						</div>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12 box box2">
+						<div class="box-iner">
+						<div class="text">
+						<h2>Organic New</h2>
+						<h3>New arrivals<span>Organic.</span></h3>
+						<p>Vestibulum suscipit quam risus, ac sollicitudin dui iaculis ac. Suspendisse ut odio non lacus accumsan scelerisque.</p>
+						<a class="shop now" href="{{store url="upholstered.html"}}">Read more</a></div>
+						<div class="img"><img src="{{media url="wysiwyg/img2-home5.jpg"}}" alt="" /></div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static bottom home5</title>
+            <identifier>static-bottom-home5</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-home-bottom">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12 box box1">
+						<div class="box-iner">
+						<div class="iner-iner-box">
+						<div class="text">
+						<h3>Organic Store</h3>
+						<div class="iner-text">Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum</div>
+						<a class="shop now" href="{{store url="persets.html"}}">Read more<i class="fa fa-long-arrow-right"></i></a></div>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box box2">
+						<div class="box-iner">
+						<div class="iner-iner-box">
+						<div class="text">
+						<h3>Open Hour</h3>
+						<div class="iner-text"><span>Monday-Friday: 8:00AM-5:00PM CST</span> <strong>Saturday-Sunday: Closed</strong></div>
+						<a class="shop now" href="{{store url="persets.html"}}">Read more<i class="fa fa-long-arrow-right"></i></a></div>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box box3">
+						<div class="box-iner">
+						<div class="iner-iner-box">
+						<div class="text">
+						<h3>Contact Information</h3>
+						<div class="iner-text"><span>No. 96, Jecica City, NJ 07305, New York, USA</span> <strong>Phone: 888.444.6455 - Fax: 608.625.2600</strong>
+						<p>Organic@organica.co</p>
+						</div>
+						<a class="shop now" href="{{store url="persets.html"}}">Read more<i class="fa fa-long-arrow-right"></i></a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static footer home5</title>
+            <identifier>static_footer_home5</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-footer">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="box box1">
+						<div class="icon"><i class="fa fa-phone"></i><span>Do you have <span> a question?</span></span></div>
+						<div class="text">+0123 456 789</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="box box2">
+						<div class="icon"><i class="fa fa-envelope-o"></i><span>offer<span> question?</span></span></div>
+						<div class="text">Contact@organica.com</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 ">
+						<div class="box box3">
+						<div class="icon"><i class="fa fa-life-saver"></i><span>SUpport<span> question?</span></span></div>
+						<div class="text">support@organica.com</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>header static home6</title>
+            <identifier>header_static_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-home6-top">
+						<div class="container-inner">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12 box1">
+						<div class="text"><i class="fa fa-plane"></i>
+						<p>Free shipping on orders over</p>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box2">
+						<div class="text"><i class="fa fa-history"></i>
+						<p>30 -Day returns money back</p>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 box3">
+						<div class="text"><i class="fa fa-futbol-o"></i>
+						<p>24/7 Support</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Menu Links</title>
+            <identifier>pt_menu_links_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div class="pt_menu_link pt_menu">
+						<div class="parentMenu">
+						<ul class="mobilemenu">
+						<li><a href="{{store url="blog"}}">Blog</a></li>
+						<li><a href="{{store url="contact"}}">Contact Us</a></li>
+						<li><a href="{{store direct_url="customer-service"}}">Customer Service</a></li>
+						<li><a class="oder1" href="{{store direct_url="sales/order/history/"}}">Order status</a></li>
+						</ul>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner right home6</title>
+            <identifier>banner_right_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-right">
+						<div class="box-col box1"><a href="#"><img src="{{media url="wysiwyg/img1-home6.jpg"}}" alt="" /></a></div>
+						<div class="box-col box2"><a href="#"><img src="{{media url="wysiwyg/img2-home6.jpg"}}" alt="" /></a></div>
+						<div class="box-col box3"><a href="#"><img src="{{media url="wysiwyg/img3-home6.jpg"}}" alt="" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static1 banner home6</title>
+            <identifier>static1_banner_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-bottom-home6">
+						<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12">
+						<div class="box-col box1"><a href="#"><img src="{{media url="wysiwyg/img4-home6.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12">
+						<div class="box-col box1"><a href="#"><img src="{{media url="wysiwyg/img5-home6.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>left category home6</title>
+            <identifier>left_category_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-category-home6">
+						<div class="box-col box1"><a href="#"><img src="{{media url="wysiwyg/category1-home6.jpg"}}" alt="" /></a></div>
+						<div class="box-col box2"><a href="#"><img src="{{media url="wysiwyg/category2-home6.jpg"}}" alt="" /></a></div>
+						<div class="box-col box3"><a href="#"><img src="{{media url="wysiwyg/category3-home6.jpg"}}" alt="" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static bottom home6</title>
+            <identifier>static_bottom_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-bottom-home6-static2">
+						<div class="img"><img src="{{media url="wysiwyg/banner-sattic-home6.jpg"}}" alt="" /></div>
+						<div class="text">
+						<h2>New arrivals</h2>
+						<h3>Organica</h3>
+						<div class="shop"><a href="{{store url="beds.html"}}">Readmore</a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>links bottom home6</title>
+            <identifier>links_bottom_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div class="links-bottom">
+						<ul class="link-follow">
+						<li><a class="facebook fa fa-facebook" href="#"> <span>facebook</span> </a></li>
+						<li><a class="youtube fa fa-youtube" href="#"> <span>youtube </span> </a></li>
+						<li><a class="twitter fa fa-twitter" href="#"> <span>twitter</span> </a></li>
+						<li class="first"><a class="mail fa fa-envelope-o " href="#"> <span>mail </span> </a></li>
+						</ul>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>bottom home6 static</title>
+            <identifier>bottom_home6_static</identifier>
+            <content>
+                    <![CDATA[
+						<div class="bottom-home6-static3">
+						<div class="row">
+						<div class="col-md-3 col-sm-12 col-xs-12 box1">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img6-home6.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-3 col-sm-12 col-xs-12 box2">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img7-home6.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-3 col-sm-12 col-xs-12 box3">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img8-home6.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-3 col-sm-12 col-xs-12 box4">
+						<div class="box-col"><a href="#"><img src="{{media url="wysiwyg/img9-home6.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static footer home6</title>
+            <identifier>static_footer_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-footer">
+						<div class="row">
+						<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="box box1">
+						<div class="icon"><i class="fa fa-phone"></i><span>Do you have <span> a question?</span></span></div>
+						<div class="text">+0123 456 789</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="box box2">
+						<div class="icon"><i class="fa fa-envelope-o"></i><span>offer<span> question?</span></span></div>
+						<div class="text">Contact@organica.com</div>
+						</div>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 ">
+						<div class="box box3">
+						<div class="icon"><i class="fa fa-life-saver"></i><span>SUpport<span> question?</span></span></div>
+						<div class="text">support@organica.com</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+    </blocks>
+</organica>
+
